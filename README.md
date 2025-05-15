@@ -1,5 +1,5 @@
 # Ex.08 Design of Interactive Image Gallery
-## Date:15-05-2025
+## Date: 15-05-2025
 
 ## AIM:
 To design a web application for an inteactive image gallery with minimum five images.
@@ -25,9 +25,9 @@ Validate the HTML and CSS code.
 Publish the website in the given URL.
 
 ## PROGRAM :
-```
-index.html
 
+index.html
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -89,9 +89,9 @@ index.html
   <script src="script.js"></script>
 </body>
 </html>
-
+```
 style.css
-
+```
 * {
   margin: 0;
   padding: 0;
@@ -185,9 +185,9 @@ body {
 .close:hover {
   color: red;
 }
-
+```
 script.js
-
+```
 window.addEventListener('scroll', () => {
   document.querySelectorAll('.gallery-item').forEach(section => {
     const rect = section.getBoundingClientRect();
